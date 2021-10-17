@@ -18,7 +18,7 @@
 
   function init() {
 
-    const MODEL_PATH = 'https://sangkyuai.github.io/spyderman.glb';
+    const MODEL_PATH = 'https://brocawernicke.github.io/spyderman.glb';
     const canvas = document.querySelector('#c');
     const backgroundColor = 0xf1f1f1;
 
@@ -44,7 +44,7 @@
     camera.position.x = 0;
     camera.position.y = -3;
 
-    let stacy_txt = new THREE.TextureLoader().load('https://sangkyuai.github.io/spiderman_d.tga.png');
+    let stacy_txt = new THREE.TextureLoader().load('https://brocawernicke.github.io/spiderman_d.tga.png');
     stacy_txt.flipY = false;
 
     const stacy_mtl = new THREE.MeshPhongMaterial({
